@@ -2,6 +2,10 @@
 
 This is a simple web application called "Mystery Holidays" that allows users to draw random travel destinations with different attributes such as country, city/region, type of travel, and attraction. The app also changes the background image to showcase the chosen destination.
 
+## Demo
+
+You can view a live demo of the "Mystery Holidays" web application by visiting the following link: [Demo Page](https://mystery-holidays-s-golba.netlify.app/)
+
 ## Getting Started
 
 To use this web application, you can follow these steps:
