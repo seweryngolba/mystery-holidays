@@ -10,7 +10,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("default-photo.jpg") center/cover no-repeat;
+  background-image: url("./assets/default-photo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -33,7 +36,6 @@ body {
   display: grid;
   grid-template-columns: auto;
   row-gap: 20px;
-  column-gap: 5px;
 }
 
 .destination-country,
@@ -74,4 +76,50 @@ body {
   font-size: 18px;
   background: black;
   color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 520px;
+    height: 480px;
+  }
+  .app-title {
+    font-size: 44px;
+  }
+  .destination-country,
+  .destination-city,
+  .destination-type,
+  .destination-atrr {
+    width: 320px;
+    height: 54px;
+    font-size: 28px;
+  }
+  .drawBtn {
+    width: 320px;
+    height: 54px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 600px;
+    height: 520px;
+  }
+  .app-title {
+    font-size: 52px;
+  }
+  .destination-country,
+  .destination-city,
+  .destination-type,
+  .destination-atrr {
+    width: 360px;
+    height: 58px;
+    font-size: 32px;
+  }
+  .drawBtn {
+    width: 360px;
+    height: 58px;
+    font-size: 28px;
+  }
 }
